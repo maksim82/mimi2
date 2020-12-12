@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java-script</title>
+</head>
+<body>
+<script>
+function tabylirovanie(x)
+{let y= x*x+x*x*x-3*x;
+return y
+}
+   let a=prompt("Введите начало диапозона a");
+   let b=prompt("Введите шаг b");
+   let c=prompt("Введите конец диапозона c");
+   a = parseInt(a);
+   b = parseInt(b);
+   c = parseInt(c);
+   for(let i=a; i<=c; i+=b){
+   alert(tabylirovanie(i));
+   }
+</script>
+</body>
+</html
